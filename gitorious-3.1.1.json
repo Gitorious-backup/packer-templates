@@ -1,8 +1,6 @@
 {
   "variables": {
     "version": "3.1.1-1",
-    "cm": "nocm",
-    "cm_version": "",
     "cleanup_pause": "",
     "headless": "",
     "iso_url": "http://mirrors.kernel.org/centos/6.5/isos/x86_64/CentOS-6.5-x86_64-bin-DVD1.iso",
@@ -68,8 +66,6 @@
   "provisioners": [{
     "type": "shell",
     "environment_vars": [
-      "CM={{user `cm`}}",
-      "CM_VERSION={{user `cm_version`}}",
       "CLEANUP_PAUSE={{user `cleanup_pause`}}",
       "UPDATE={{user `update`}}",
       "http_proxy={{user `http_proxy`}}",
