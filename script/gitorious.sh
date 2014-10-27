@@ -8,7 +8,7 @@ cd /tmp
 git clone https://gitorious.org/gitorious/ce-installer.git
 cd ce-installer
 git checkout -f v3.1.1
-./install
+echo "" | ./install
 
 echo '==> Customizing message of the day'
 echo 'Welcome to your Gitorious virtual machine.' > /etc/motd
