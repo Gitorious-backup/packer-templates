@@ -15,7 +15,7 @@
   "builders": [{
     "vm_name": "gitorious-3.1.1-1",
     "type": "vmware-iso",
-    "disk_type_id": "0",
+    "disk_type_id": "4",
     "guest_os_type": "redhat",
     "http_directory": "http",
     "iso_url": "{{ user `iso_url` }}",
